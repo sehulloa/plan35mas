@@ -83,12 +83,18 @@ const Hero = () => (
             para semanas reales: trabajo, estrés y energía variable. Sin dietas
             extremas, sin rutinas intensas y sin culpa.
           </p>
-          <Button
-            primary
-            className="text-lg md:text-3xl uppercase tracking-wider px-10 md:px-16 py-4 md:py-6"
+          <a
+            href="https://pay.hotmart.com/T104626871Q"
+            target="_self"
+            rel="noopener noreferrer"
           >
-            DESCARGAR PLAN 35+
-          </Button>
+            <Button
+              primary
+              className="text-lg md:text-3xl uppercase tracking-wider px-10 md:px-16 py-4 md:py-6"
+            >
+              DESCARGAR PLAN 35+
+            </Button>
+          </a>
         </motion.div>
 
         <motion.div
@@ -551,13 +557,18 @@ const Pricing = () => (
             referrerPolicy="no-referrer"
           />
         </div>
-
-        <Button
-          primary
-          className="w-full md:w-auto text-xl md:text-2xl px-14 py-6 mb-6"
+        <a
+          href="https://pay.hotmart.com/T104626871Q"
+          target="_self"
+          rel="noopener noreferrer"
         >
-          DESCARGAR PLAN 35+ AHORA
-        </Button>
+          <Button
+            primary
+            className="w-full md:w-auto text-xl md:text-2xl px-14 py-6 mb-6"
+          >
+            DESCARGAR PLAN 35+ AHORA
+          </Button>
+        </a>
 
         <div className="mt-6 flex items-center justify-center gap-4 text-xl md:text-3xl text-brand-blue font-medium">
           <ShieldCheck className="w-7 h-7 md:w-8 md:h-8 text-green-600" />
@@ -601,10 +612,15 @@ const Closing = () => (
         $9.99 USD
       </p>
     </div>
-
-    <Button primary className="text-xl px-16 py-6 mb-16">
-      DESCARGAR AHORA →
-    </Button>
+    <a
+      href="https://pay.hotmart.com/T104626871Q"
+      target="_self"
+      rel="noopener noreferrer"
+    >
+      <Button primary className="text-xl px-16 py-6 mb-16">
+        DESCARGAR AHORA →
+      </Button>
+    </a>
 
     <div className="pt-12 border-t border-gray-100 italic text-gray-600">
       <p className="text-xl md:text-2xl mb-2">"Con equilibrio y estructura,"</p>
