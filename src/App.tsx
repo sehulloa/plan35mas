@@ -95,6 +95,10 @@ const Hero = () => (
               DESCARGAR PLAN 35+
             </Button>
           </a>
+          <p className="text-xl md:text-3xl leading-relaxed font-light opacity-90 mb-10 mt-10 max-w-2xl">
+            Si llegas cansado y terminas decidiendo qué comer en el momento,
+            esto es para ti.
+          </p>
         </motion.div>
 
         <motion.div
@@ -282,17 +286,17 @@ const HowItWorks = () => {
 const Testimonials = () => (
   <Section className="bg-gray-50">
     <h2 className="text-3xl md:text-4xl font-bold text-center text-brand-blue mb-16">
-      Miles de personas ya han transformado sus vidas
+      Muchas personas ya han comenzado a organizar su alimentación
     </h2>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
       {[
         {
-          name: "María",
-          text: "Desde que implementé el sistema durante 4 semanas, reduje mi tiempo de decisión sobre comidas de 30 minutos diarios a 20 minutos semanales. Lo más importante: no tuve que reiniciar ni una sola vez.",
+          name: "María López",
+          text: "El material está muy claro y bien organizado. Me gustó que no promete perfección, sino una forma realista de ordenar la semana. Ya comencé a usar la estructura y me hace mucho sentido.",
         },
         {
-          name: "Carlos",
-          text: "Por fin encontré una estructura que se adapta a mi vida real. Las semanas ocupadas ya no son excusa para abandonar mis hábitos.",
+          name: "Carlos Martínez",
+          text: "La compra fue sencilla y el acceso inmediato. El enfoque es práctico y se nota que está pensado para personas con poco tiempo. Recién empiezo, pero el contenido cumple con lo que esperaba.",
         },
       ].map((t, i) => (
         <div
@@ -328,9 +332,9 @@ const Comparison = () => (
         </h3>
         <ul className="space-y-4">
           {[
-            "Buscas resultados rápidos o extremos",
+            "Buscas cambios rápidos sin organizarte",
             "Quieres entrenamientos intensos diarios",
-            "Esperas un plan rígido sin adaptación",
+            "Quieres una dieta estricta que alguien más controle",
             "Disfrutas de retos agresivos",
             "Prefieres improvisación sobre estructura",
           ].map((item, i) => (
@@ -352,7 +356,7 @@ const Comparison = () => (
         <ul className="space-y-4">
           {[
             "Tienes 35 años o más",
-            "Buscas estructura clara y sostenible",
+            "Buscas organización clara y sostenible",
             "Quieres reducir decisiones diarias",
             "Ya probaste planes intensos sin éxito",
             "Prefieres equilibrio sobre perfección",
@@ -635,6 +639,10 @@ const FAQ = () => {
   const [open, setOpen] = useState<number | null>(null);
 
   const faqs = [
+    {
+      q: "¿Cuánto tiempo debo invertir?",
+      a: "Con 20 minutos a la semana es suficiente para tener claridad diaria sobre qué comer. No se trata de cocinar más ni de pasar horas planificando, sino de decidir con anticipación para no improvisar durante la semana.",
+    },
     {
       q: "¿Cuándo veré resultados?",
       a: "Muchas personas notan más claridad y organización desde la primera semana. Los resultados sostenibles llegan al repetir lo básico durante varias semanas.",
